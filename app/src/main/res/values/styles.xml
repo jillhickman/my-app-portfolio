@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    //style for textView
+    <style name="TextViewTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name= "android:textColor">@color/material_deep_teal_500</item>
+        <item name= "android:textSize">@dimen/abc_text_size_title_material</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColor">@color/material_deep_teal_500</item>
+    </style>
+
+    <style name="ButtonStyle.Pink">
+        <item name="android:background">#CE93D8</item>
+    </style>
+
+
+</resources>
