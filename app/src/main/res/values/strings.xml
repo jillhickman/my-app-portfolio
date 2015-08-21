@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">MyPortfolioApp</string>
 
-    <string name="hello_world">Hello world!</string>
+
+    <string name="spotify_message">Launches my Spotify Streamer App!</string>
+    <string name="scores_message">Launches my Scores App!</string>
+    <string name="library_message">Launches my Library App!</string>
+    <string name="build_message">Launches my Build It Bigger App!</string>
+    <string name="reader_message">Launches my XYZ Reader App!</string>
+    <string name="capstone_message">Launches my capstone project: My own app!</string>
+
     <string name="action_settings">Settings</string>
 </resources>

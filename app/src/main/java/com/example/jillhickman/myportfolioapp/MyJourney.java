@@ -28,56 +28,28 @@ public class MyJourney extends ActionBarActivity {
     //button for spotify streamer app with toast
     public void spotifyMessage (View view){
         Context context = getApplicationContext();
-        CharSequence text = "Launches my Spotify Streamer App!";
         int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
+        Toast toast = Toast.makeText(context, R.string.spotify_message, duration);
         toast.show();
     }
     //button for scores app with toast
     public void scoresMessage (View view){
-        Context context = getApplicationContext();
-        CharSequence text = "Launches my Scores App!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        Toast.makeText(getApplicationContext(),R.string.scores_message, Toast.LENGTH_SHORT).show();
     }
     //button for library app with toast
     public void libraryMessage (View view){
-        Context context = getApplicationContext();
-        CharSequence text = "Launches my Library App!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        Toast.makeText(getApplicationContext(), R.string.library_message, Toast.LENGTH_SHORT).show();
     }
     //button for build it bigger app with toast
     public void buildMessage (View view){
-        Context context = getApplicationContext();
-        CharSequence text = "Launches my Build It Bigger App!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        Toast.makeText(getApplicationContext(), R.string.spotify_message, Toast.LENGTH_SHORT).show();
     }
     //button for XYZ reader with toast
     public void readerMessage (View view){
-        Context context = getApplicationContext();
-        CharSequence text = "Launches my XYZ Reader App!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context,text, duration);
-        toast.show();
+        Toast.makeText(getApplicationContext(), R.string.reader_message, Toast.LENGTH_SHORT).show();
     }
-
     public  void capstoneMessage (View view){
-        Context context = getApplicationContext();
-        CharSequence text = "Launches my Capstone:My Own App!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        Toast.makeText(getApplicationContext(), R.string.capstone_message, Toast.LENGTH_SHORT).show();
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
